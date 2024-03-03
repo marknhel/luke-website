@@ -1,0 +1,162 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1B1B1B;
+  color: white;
+  width: 80%;
+  margin: 0 auto;
+}
+
+header{
+  color: #D2691E;
+  text-align: center;
+  font-size: 20px;
+  margin: 40px;
+}
+section{
+  width: 90%;
+  margin: 20px auto;
+}
+
+fieldset{
+  border-radius: 0.25em;
+  border: 2px solid grey;
+  width: 100%;
+}
+
+#intro-main-content{
+  display: flex;
+  justify-content: center;
+  column-gap: 40px;
+  row-gap: 20px;
+  width: 100%;
+  padding: 20px;
+  border: 2px solid transparent;
+  border-radius: 0.25em;
+}
+
+#intro-caption{
+  font-size: 20px;
+  width: 100%;
+}
+
+#intro-caption p{
+  width: 90%;
+  border-left: 2px solid #D2691E;
+  padding-left: 25px;
+
+
+}
+
+#me-img{
+  padding: 10px;
+  width: 100%;
+}
+
+legend{
+  color: #D2691E;
+  font-size: 40px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+div[class="stuff-desc"] p, div[class="site-desc"] p{
+  font-size: 20px;
+  border-left: 2px solid #D2691E;
+  padding-left: 10px;
+
+}
+
+#stuff-main-content, #sites-main-content{
+  padding: 20px 0;
+}
+
+#my-stuff, #my-sites{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  row-gap: 30px;
+}
+
+li{
+  list-style: none;
+  padding: 10px 20px;
+  border-radius: 0.25em;
+}
+
+li:hover{
+  background-color: black;
+  color: white;
+}
+
+.stuff-item,.site-item{
+  display: flex;
+  width: 80%;
+  column-gap: 0px;
+  margin: 0 10%;
+  padding: 0;
+  border: 2px solid transparent;
+  border-radius: 0.25em;
+
+}
+
+.stuff-item:hover, .site-item:hover{
+  background-color: black;
+
+  img{
+    padding: 10px;
+  }
+  .stuff-desc, .site-desc{
+    color: white;
+  }
+  p{
+    border-color: white;
+  }
+
+}
+
+div[class="stuff-img"] img, div[class="site-img"] img{
+  width: 80px;
+  height: 80px;
+  padding: 20px;
+  margin: 0 20px;
+}
+
+a:link, a:visited{
+  color: #D2691E;
+  text-decoration: none;
+}
+
+main{
+  display: flex;
+  flex-direction: column;
+}
+
+#footer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 5px;
+}
+
+#rss-img{
+  width: 20px;
+}
+
+.green{
+  color: #00DD00;
+}
+
+footer[id="footer"] p{
+  padding: 0;
+  margin: 0;
+}
+
+footer{
+  margin: 90px auto 200px auto;
+}
